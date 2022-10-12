@@ -325,3 +325,7 @@ h3 {
 .telefoneico:before {
     background-image: url('../img/telefoneico.png');
 }
+
+@media only screen and (min-width: 700px) {
+
+}
