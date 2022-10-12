@@ -2,6 +2,7 @@ body {
     height: 100%;
     width: 100%;
     margin: 0 auto;
+    max-width: 1920px;
 }
 
 ul {
@@ -12,7 +13,6 @@ ul {
     width: 100%;
     background-color: #252323;
     height: 60px;
-    width: ;
 }
 
 main.content {
@@ -129,6 +129,7 @@ button.slick-next {
 
 .slider-principal {
     width: 100% !important;
+    position: relative;
 }
 
 .slick-list {
@@ -184,14 +185,26 @@ li.slick-active button {
     color: #9a9a9a;
     font-size: 17px;
 }
-
+.content .bloco-texto {
+    float: left;
+    margin-left: 43px;
+}
+.bloco-imagens-texto .content {
+    display: flex;
+    justify-content: space-evenly;
+}
 .col-3 {
     padding-left: 0px;
     padding-right: 0px;
     width: 29%;
-    float: left;
+    /* float: left; */
     position: relative;
-    margin-left: 43px;
+
+    border: 1px solid #000;
+}
+
+.bloco-imagens-texto .col-3 img {
+    width: 100%;
 }
 
 .bloco-texto {
@@ -245,12 +258,12 @@ h3 {
 
 .col-4 .behance img {
     margin-top: 16px;
-    !important
 }
 
 .col-4 img:hover {
-    margin-top: 10px;
-    !important position: relative !important;
+    transition: ease 2s all;
+    margin-top: 10px !important;
+    position: relative !important;
 }
 
 .bloco-logos {
@@ -266,12 +279,15 @@ h3 {
 }
 
 .footer {
-    /* background-image: url(../IMG/footer.png); */
+    background-image: url(../IMG/footer.png);
     color: #ffffff;
+}
+.footer .content {
+    display: flex;
 }
 
 .footer-2 {
-    /* background-image: url(../IMG/footer2.png); */
+    background-image: url(../IMG/footer2.png);
     color: #c1c1c1;
     height: 90px;
 }
@@ -284,7 +300,7 @@ h3 {
 
 .footer-2 p {
     padding: 10px;
-    /* background-image: url(../IMG/footer2.png); */
+    margin: 0;
 }
 
 .clock {
