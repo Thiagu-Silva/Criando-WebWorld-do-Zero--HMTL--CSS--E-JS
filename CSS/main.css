@@ -263,12 +263,12 @@ text-align: center;
 }
 
 .footer {
-    background-image: url(../IMG/footer.png);
+    /* background-image: url(../IMG/footer.png); */
     color: #ffffff;
 }
 
 .footer-2 {
-    background-image: url(../IMG/footer2.png);
+    /* background-image: url(../IMG/footer2.png); */
     color: #c1c1c1;
     height: 90px;
 }
@@ -281,7 +281,7 @@ text-align: center;
 
 .footer-2 p {
     padding: 10px;
-    background: #3d3a3a;
+    /* background-image: url(../IMG/footer2.png); */
 }
 
 .clock {
