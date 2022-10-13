@@ -192,7 +192,9 @@ li.slick-active button {
 .bloco-imagens-texto .content {
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
 }
+
 .col-3 {
     padding-left: 0px;
     padding-right: 0px;
@@ -200,7 +202,7 @@ li.slick-active button {
     /* float: left; */
     position: relative;
 
-    border: 1px solid #000;
+    border: 2px solid #d6d6d6;
 }
 
 .bloco-imagens-texto .col-3 img {
@@ -342,6 +344,14 @@ h3 {
     background-image: url('../img/telefoneico.png');
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (max-width: 480px) {
+    .main-2 {
+        height: auto;
+    }
+    .header-2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
 
+    }
 }
