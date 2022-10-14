@@ -185,14 +185,17 @@ li.slick-active button {
     color: #9a9a9a;
     font-size: 17px;
 }
+
 .content .bloco-texto {
     float: left;
     margin-left: 43px;
 }
+
 .bloco-imagens-texto .content {
     display: flex;
     justify-content: space-evenly;
 }
+
 .col-3 {
     padding-left: 0px;
     padding-right: 0px;
@@ -282,6 +285,7 @@ h3 {
     background-image: url(../IMG/footer.png);
     color: #ffffff;
 }
+
 .footer .content {
     display: flex;
 }
@@ -341,4 +345,17 @@ h3 {
 .telefoneico:before {
     background-image: url('../img/telefoneico.png');
 
+}
+
+@media only screen and (max-width: 480px) {
+    .main-2 {
+        height: auto;
+    }
+
+    .header-2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
 }
